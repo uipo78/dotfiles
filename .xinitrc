@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# So that i3-sensible-terminal uses termite before urxvt
+export TERMINAL="termite"
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
