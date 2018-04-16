@@ -138,6 +138,7 @@
     antigen bundle command-not-found
     antigen bundle docker
     antigen bundle git
+    antigen bundle kubectl
     antigen bundle pip
     antigen bundle postgres
     antigen bundle python
