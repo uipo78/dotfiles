@@ -157,3 +157,5 @@
 # }
 
 source $HOME/.aliases
+
+source <(kubectl completion zsh)
