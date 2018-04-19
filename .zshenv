@@ -1,5 +1,7 @@
 # System variables {
-    export EDITOR='nvim'
+    export EDITOR="nvim"
+
+    export BROWSER="chromium"
 
     export ZDOTDIR="$HOME/.config/zsh"
 
