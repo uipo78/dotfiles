@@ -12,4 +12,6 @@
     export PATH="${PATH}:${HOME}/.notify"
 
     export PATH="${PATH}:${HOME}/.executor"
+
+    export ANTIGEN_COMPDUMPFILE="${ZDOTDIR}/.zcompdump"
 # }
