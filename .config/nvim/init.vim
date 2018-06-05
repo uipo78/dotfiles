@@ -77,8 +77,6 @@ let mapleader="\<SPACE>"
 
         " Git stuff
         Plug 'airblade/vim-gitgutter'
-        Plug 'junegunn/vim-github-dashboard', {'on': ['GHDashboard', 'GHActivity']}
-        Plug 'tpope/vim-fugitive'
 
         " Other
         Plug 'godlygeek/tabular'  " so that you don't become suicidal while making markdown tables 
