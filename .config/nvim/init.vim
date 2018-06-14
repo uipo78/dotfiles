@@ -58,6 +58,7 @@ let mapleader="\<SPACE>"
         Plug 'bling/vim-airline'
         Plug 'vim-airline/vim-airline-themes'
         Plug 'ryanoasis/vim-devicons'
+        Plug 'joshdick/onedark.vim'
 
         " Asynchronous lint engine
         Plug 'w0rp/ale'
@@ -92,5 +93,10 @@ let mapleader="\<SPACE>"
 " Plugin settings {
     " Airline {
         let g:airline_powerline_fonts=1
+        let g:airline_theme='onedark'
+    " }
+    " atom's one dark colorscheme {
+        syntax on
+        colorscheme onedark
     " }
 " }
