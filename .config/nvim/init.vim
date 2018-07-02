@@ -96,7 +96,7 @@ let mapleader="\<SPACE>"
         let g:airline_powerline_fonts=1
         let g:airline_theme='onedark'
     " }
-    " atom's one dark colorscheme {
+    " Atom's One Dark color scheme {
         syntax on
         colorscheme onedark
     " }
