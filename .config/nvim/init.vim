@@ -81,6 +81,8 @@ let mapleader="\<SPACE>"
         Plug 'mhinz/vim-signify'
 
         " Other
+        Plug 'rust-lang/rust.vim'
+        let g:rustfmt_autosave = 1
         Plug 'godlygeek/tabular'  " so that you don't become suicidal while making markdown tables 
         Plug 'mhinz/vim-sayonara', {'on': 'Sayonara'}
         Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
