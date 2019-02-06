@@ -76,13 +76,17 @@ let mapleader="\<SPACE>"
         Plug 'PyCQA/flake8'
         Plug 'stedolan/jq' " More than a linter but whatever
 
+        " Rust
+        Plug 'rust-lang/rust.vim'
+
+        " Go
+        Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
+
         " Git stuff
         Plug 'airblade/vim-gitgutter'
         Plug 'mhinz/vim-signify'
 
         " Other
-        Plug 'rust-lang/rust.vim'
-        let g:rustfmt_autosave = 1
         Plug 'godlygeek/tabular'  " so that you don't become suicidal while making markdown tables 
         Plug 'mhinz/vim-sayonara', {'on': 'Sayonara'}
         Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
@@ -98,6 +102,11 @@ let mapleader="\<SPACE>"
         let g:airline_powerline_fonts=1
         let g:airline_theme='onedark'
     " }
+
+    " Rust {
+        let g:rustfmt_autosave = 1
+    " }
+
     " Atom's One Dark color scheme {
         syntax on
         colorscheme onedark

@@ -156,4 +156,6 @@
     antigen apply
 # }
 
+source $HOME/.local/lib/azure-cli/az.completion
+
 source $HOME/.aliases
