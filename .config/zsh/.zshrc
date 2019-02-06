@@ -148,6 +148,7 @@
     antigen bundle zsh-users/zsh-completions
     antigen bundle zsh-users/zsh-history-substring-search
     antigen bundle zsh-users/zsh-syntax-highlighting
+    antigen bundle peterhurford/git-it-on.zsh
 
     # Load the theme
     antigen theme bhilburn/powerlevel9k powerlevel9k
