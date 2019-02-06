@@ -16,4 +16,6 @@
     export PATH="${PATH}:${HOME}/.cargo/bin"
 
     export ANTIGEN_COMPDUMPFILE="${ZDOTDIR}/.zcompdump"
+
+    export GOPATH="$HOME/.go"
 # }
