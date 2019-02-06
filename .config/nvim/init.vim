@@ -13,20 +13,6 @@ let mapleader="\<SPACE>"
     set splitbelow  " Horizontal split below current.
     set splitright  " Vertical split to the right of current.
 
-    " Relative numbering toggler.
-    function! NumberToggle()
-      if(&relativenumber == 1)
-        set nornu
-        set number
-      else
-        set rnu
-      endif
-    endfunc
-
-    " Toggle between normal and relative numbering.
-    nnoremap <leader>r :call NumberToggle()<cr>
-
-    " TODO: Set relative numbering in entering Insert mode.
 
 " }
 
