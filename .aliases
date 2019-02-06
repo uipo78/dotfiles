@@ -3,3 +3,5 @@ alias copy="xclip -sel clip"
 
 # Manage version-controlled dotfiles directory
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+alias dc="docker-compose"
