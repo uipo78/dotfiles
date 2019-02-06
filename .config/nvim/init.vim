@@ -13,7 +13,13 @@ let mapleader="\<SPACE>"
     set splitbelow  " Horizontal split below current.
     set splitright  " Vertical split to the right of current.
 
+    " Vmap for maintain Visual Mode after shifting > and <
+    vmap < <gv
+    vmap > >gv
 
+    "" Move visual block
+    vnoremap J :m '>+1<CR>gv=gv
+    vnoremap K :m '<-2<CR>gv=gv
 " }
 
 
