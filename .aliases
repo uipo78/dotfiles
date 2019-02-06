@@ -1,8 +1,5 @@
 # Pipe to clipboard
 alias copy="xclip -sel clip"
 
-# Better version of cat
-alias cat=bat
-
 # Manage version-controlled dotfiles directory
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
