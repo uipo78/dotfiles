@@ -159,4 +159,7 @@
 
 source $HOME/.aliases
 
+# Get that azure tab complete bb
+source $HOME/.local/lib/azure-cli/az.completion
+
 source <(kubectl completion zsh)
