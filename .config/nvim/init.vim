@@ -17,7 +17,7 @@ let mapleader="\<SPACE>"
     vmap < <gv
     vmap > >gv
 
-    " Move visual block
+    "" Move visual block
     vnoremap J :m '>+1<CR>gv=gv
     vnoremap K :m '<-2<CR>gv=gv
 " }
@@ -71,12 +71,6 @@ let mapleader="\<SPACE>"
         Plug 'PyCQA/flake8'
         Plug 'stedolan/jq' " More than a linter but whatever
 
-        " Rust
-        Plug 'rust-lang/rust.vim'
-
-        " Go
-        Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
-
         " Git stuff
         Plug 'airblade/vim-gitgutter'
         Plug 'mhinz/vim-signify'
@@ -118,6 +112,7 @@ let mapleader="\<SPACE>"
         let g:go_fmt_fail_silently = 1
         let g:syntastic_go_checkers = ['golint', 'govet']
         let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
         let g:go_highlight_types = 1
         let g:go_highlight_fields = 1
         let g:go_highlight_functions = 1
@@ -163,9 +158,4 @@ let mapleader="\<SPACE>"
 
         augroup END
     " }
-
-    " Rust {
-        let g:rustfmt_autosave = 1
-    " }
-
 " }
