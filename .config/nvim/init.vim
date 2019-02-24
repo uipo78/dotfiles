@@ -55,10 +55,6 @@ let mapleader="\<SPACE>"
         " Asynchronous lint engine
         Plug 'w0rp/ale'
 
-        " Autocomplete
-        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-        let g:deoplete#enable_at_startup = 1
-
         " Language-specific syntax highlighting
         Plug 'sheerun/vim-polyglot'
 
