@@ -107,6 +107,9 @@ let mapleader="\<SPACE>"
             \ 'args': ['-'],
             \ 'stdin': 1}
         let g:neoformat_enabled_python = ['isort', 'black']
+        " Autoformatting should happen on python files before
+        " they're written.
+        autocmd BufWritePre *.py Neoformat
     " }
 
     " Go stuff {
