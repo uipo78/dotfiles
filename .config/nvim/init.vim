@@ -67,6 +67,9 @@ let mapleader="\<SPACE>"
         Plug 'PyCQA/flake8'
         Plug 'stedolan/jq' " More than a linter but whatever
 
+        " Formatters
+        Plug 'sbdchd/neoformat'
+
         " Git stuff
         Plug 'airblade/vim-gitgutter'
         Plug 'mhinz/vim-signify'
@@ -91,6 +94,19 @@ let mapleader="\<SPACE>"
     " Atom's One Dark color scheme {
         syntax on
         colorscheme onedark
+    " }
+
+    " Neoformat {
+        let g:neoformat_run_all_formatters = 1
+        let g:neoformat_python_black = {
+            \ 'exe': 'black',
+            \ 'stdin': 1,
+            \ 'args': ['-l 79', '--quiet', '-' ]}
+        let g:neoformat_python_isort = {
+            \ 'exe': 'isort',
+            \ 'args': ['-'],
+            \ 'stdin': 1}
+        let g:neoformat_enabled_python = ['isort', 'black']
     " }
 
     " Go stuff {
