@@ -20,5 +20,4 @@
     export PATH="${PATH}:${KREW_ROOT:-$HOME/.krew}/bin"
 
     export ANTIGEN_COMPDUMPFILE="${ZDOTDIR}/.zcompdump"
-
 # }
