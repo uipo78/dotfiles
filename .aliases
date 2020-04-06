@@ -3,3 +3,6 @@ alias copy="xclip -sel clip"
 
 # Manage version-controlled dotfiles directory
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+# Annoying notifier
+alias ding="mpg123 ~/misc/ding-fries-are-done.mp3"
