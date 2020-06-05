@@ -5,4 +5,4 @@ alias copy="xclip -sel clip"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Annoying notifier
-alias ding="mpg123 ~/misc/ding-fries-are-done.mp3"
+alias ding="mpg123 ~/misc/mlg-airhorn.mp3"
