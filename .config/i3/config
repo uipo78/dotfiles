@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start the screenshot menu
-bindsym $mod+tab exec ~/.config/rofi/scripts/menu_screenshot.sh
+bindsym $mod+s exec ~/.config/rofi/scripts/menu_screenshot.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
