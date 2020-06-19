@@ -250,7 +250,5 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id "xautolock -time 5 -notify 30 -notifier 'notify-send -u critical -- 'Locking screen in 30 seconds -i /usr/share/icons/Adwaita/64x64/status/alarm-symbolic.symbolic.png' -corners -lock i3lock-fancy"
 bindsym $mod+shift+x exec i3lock-fancy
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id i3-msg 'workspace 1; exec chromium'
 exec --no-startup-id i3-msg 'workspace 2; exec discord'
 exec --no-startup-id i3-msg 'workspace 2; exec slack'
-exec --no-startup-id i3-msg 'workspace 2; exec kitty'
