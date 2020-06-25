@@ -3,3 +3,5 @@ alias copy="xclip -sel clip"
 
 # Manage version-controlled dotfiles directory
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+alias soviet_alarm="mpg123 ~/misc/sound/trumpet_beginning_soviet_union_national_anthem.mp3"
