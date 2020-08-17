@@ -23,7 +23,7 @@
 # The directory would need 12 images for this example to work, since there are 12 times stated
 # Config options are stated below; uncomment them and fill them as you would from the command line.
 #times = []
-directory = "~/misc/wallpaper/lakeside"
+directory = "/home/uipo/misc/wallpaper/lakeside"
 #backend = "feh"
 #program = ["echo test1", "echo test2"]
 lat = 41.927391
