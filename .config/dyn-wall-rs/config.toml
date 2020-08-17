@@ -1,0 +1,31 @@
+# Type the times at which you want the wallpaper to change as shown in the example below
+# The times must be in chronological order
+# The number of images and the number of times should be equal
+#
+# ex:
+# times = [
+#   "00:00",
+#   "02:00",
+#   "04:00",
+#   "06:00",
+#   "08:00",
+#   "10:00",
+#   "12:00",
+#   "14:00",
+#   "16:00",
+#   "18:00",
+#   "20:00",
+#   "22:00",
+# ]
+#
+# The times are linked to the files in numerical order. This means that in the example above,
+# 1.png will be your wallpaper at 00:00, 2.png will be your wallpaper at 02:00, etc.
+# The directory would need 12 images for this example to work, since there are 12 times stated
+# Config options are stated below; uncomment them and fill them as you would from the command line.
+#times = []
+directory = "~/misc/wallpaper/lakeside"
+#backend = "feh"
+#program = ["echo test1", "echo test2"]
+lat = 41.927391
+long = -87.802980
+elevation = 182

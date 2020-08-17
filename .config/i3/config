@@ -237,7 +237,7 @@ no_focus [class="plasmashell" window_type="notification"]
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
 # Set Wallpaper
-exec_always --no-startup-id "dyn-wall-rs -d ~/misc/wallpaper/lakeside"
+exec_always --no-startup-id "dyn-wall-rs"
 
 # Disable titlebar
 for_window [class=".*"] border pixel 0
