@@ -28,7 +28,7 @@
     POWERLEVEL9K_MODE='nerdfont-complete'
 
     # Powerline order
-    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user context dir vcs)
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
     POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs anaconda)
     
     POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="\uE0B4"
@@ -127,7 +127,7 @@
 
 
 # antigen {
-    source /usr/share/zsh/share/antigen.zsh 
+    source /usr/local/share/antigen/antigen.zsh
 
     # Load the oh-my-zsh library
     antigen use oh-my-zsh
@@ -151,15 +151,12 @@
     antigen bundle peterhurford/git-it-on.zsh
 
     # Load the theme
-    antigen theme bhilburn/powerlevel9k powerlevel9k
+    antigen theme romkatv/powerlevel10k
 
     # Tell Antigen that you're done
     antigen apply
 # }
 
 source $HOME/.aliases
-
-# Get that azure tab complete bb
-source $HOME/.local/lib/azure-cli/az.completion
 
 source <(kubectl completion zsh)
