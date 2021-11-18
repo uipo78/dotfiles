@@ -29,12 +29,16 @@
 
     # Powerline order
     POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
-    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs anaconda)
+    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs anaconda virtualenv pyenv goenv kubecontext aws)
     
     POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="\uE0B4"
     POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}|%f"
     POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR="\uE0B6"
     POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{$(( $DEFAULT_BACKGROUND - 2 ))}|%f"
+
+    POWERLEVEL9K_KUBECONTEXT_SHOW_ON_COMMAND="kubectl|helm|flux|kubens|kubectx|oc|istioctl|kogito|k9s|jx|eksctl|helmfile|kops|tkn"
+    POWERLEVEL9K_AWS_SHOW_ON_COMMAND="aws|awless|terraform|pulumi|cdk|terragrunt|sam|jx|eksctl|kops"
+
     
     POWERLEVEL9K_CONTEXT_TEMPLATE="\uF109 %m"
     POWERLEVEL9K_ALWAYS_SHOW_CONTEXT=true
