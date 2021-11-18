@@ -28,7 +28,7 @@
     POWERLEVEL9K_MODE='nerdfont-complete'
 
     # Powerline order
-    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user context dir vcs)
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user context taskwarrior dir vcs)
     POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs anaconda virtualenv pyenv goenv kubecontext aws)
     
     POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="\uE0B4"
