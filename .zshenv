@@ -19,5 +19,7 @@
 
     export PATH="${PATH}:${KREW_ROOT:-$HOME/.krew}/bin"
 
+    export PATH="${PATH}:/usr/local/sbin"
+
     export ANTIGEN_COMPDUMPFILE="${ZDOTDIR}/.zcompdump"
 # }
